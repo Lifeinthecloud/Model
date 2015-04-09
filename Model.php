@@ -346,7 +346,7 @@ abstract class Model
             return;
         }
 
-        if(is_numeric($value)) {
+        if(is_integer($value)) {
 
             if($value == $_value = (int) $value)
                 $value = $_value;
